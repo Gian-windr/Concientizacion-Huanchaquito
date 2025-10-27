@@ -1,4 +1,4 @@
-# 🌱 CuidemosHuanchaquito - Proyecto de Concientización Ambiental
+# CuidemosHuanchaquito - Proyecto de Concientización Ambiental
 
 ## Descripción del Proyecto
 
@@ -9,7 +9,7 @@ Ing. José Calderón Sedano
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Concientizacion-Huanchaquito/
@@ -25,7 +25,7 @@ Concientizacion-Huanchaquito/
 
 ---
 
-## 🎯 Objetivos del Proyecto
+## Objetivos del Proyecto
 
 1. **Conciencia Ambiental**: Fomentar la responsabilidad ambiental en la comunidad
 2. **Acción Comunitaria**: Organizar jornadas de limpieza en espacios públicos
@@ -34,7 +34,7 @@ Concientizacion-Huanchaquito/
 
 ---
 
-## 📄 Páginas del Sitio Web
+## Páginas del Sitio Web
 
 ### 1. **index.html** - Página Principal
 - Hero section con llamada a la acción
@@ -87,7 +87,7 @@ Concientizacion-Huanchaquito/
 
 ---
 
-## 🚀 Cómo Usar
+## Cómo Usar
 
 1. **Abrir el proyecto**: 
    - Abre `index.html` en tu navegador web
@@ -105,68 +105,13 @@ Concientizacion-Huanchaquito/
 
 ---
 
-## 📊 Resultados del Proyecto
 
-### Impacto Logrado
-- **3** Jornadas de limpieza realizadas
-- **135+** Voluntarios participantes
-- **500kg** de residuos recolectados
-- **8** Zonas recuperadas
-- **300+** Personas sensibilizadas
-
----
-
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - HTML5
 - CSS3 (con variables CSS y Grid/Flexbox)
 - JavaScript (para funcionalidad del formulario)
 - Diseño responsive sin frameworks
-
----
-
-## 📝 Próximos Pasos
-
-1. **Agregar imágenes reales**: Reemplazar los placeholders con fotos de las jornadas
-2. **Implementar backend**: Conectar el formulario a una base de datos
-3. **Integrar redes sociales**: Añadir feeds de Instagram/Facebook
-4. **Crear blog**: Sección de noticias y actualizaciones
-5. **Añadir mapa**: Mostrar ubicaciones de las jornadas con Google Maps
-6. **Sistema de voluntarios**: Panel para gestionar inscripciones
-
----
-
-## 👥 Cómo Contribuir
-
-Si deseas mejorar este proyecto:
-
-1. Agrega más contenido educativo sobre medio ambiente
-2. Mejora el diseño visual
-3. Añade funcionalidades interactivas
-4. Optimiza para SEO
-5. Traduce a otros idiomas
-
----
-
-## 📞 Contacto
-
-- **Email**: info@cuidemoshuanchaquito.pe
-- **Teléfono**: +51 999 999 999
-- **Ubicación**: Huanchaquito, Huanchaco - Trujillo, La Libertad, Perú
-
----
-
-## 📜 Licencia
-
-Este proyecto es parte de un trabajo académico para el curso de Medio Ambiente y Desarrollo Sostenible.
-
----
-
-## 🌍 Mensaje Final
-
-*"Juntos por un Huanchaquito más limpio y sostenible. Cada acción cuenta, cada voluntario hace la diferencia."*
-
----
 
 **Proyecto ICD - Medio Ambiente y Desarrollo Sostenible**  
 © 2025 CuidemosHuanchaquito
