@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #2c3e50;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8f5e9 100%);
+}
+
+/* ============================================
+   NAVEGACIÓN
+   ============================================ */
+nav {
+    background: linear-gradient(90deg, #1b4332 0%, #2d6a4f 100%);
+    padding: 18px 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    margin: 0 8px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+nav a:hover {
+    background-color: #52b788;
+    border-color: #95d5b2;
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   CONTENEDOR PRINCIPAL
+   ============================================ */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+/* ============================================
+   TÍTULOS
+   ============================================ */
+h1 {
+    color: #1b4332;
+    margin: 40px 0 30px;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: left;
+    border-left: 6px solid #52b788;
+    padding-left: 20px;
+    line-height: 1.2;
+}
+
+h2 {
+    color: #2d6a4f;
+    margin: 50px 0 25px;
+    font-size: 2.2em;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #52b788, transparent);
+}
+
+h3 {
+    color: #2d6a4f;
+    margin: 25px 0 15px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+/* ============================================
+   GALERÍA - IMAGEN PRINCIPAL
+   ============================================ */
+.galeria-principal {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 50px 0;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.imagen-central {
+    width: 55%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.imagen-central:hover {
+    transform: scale(1.02);
+}
+
+.galeria-principal p {
+    flex: 1;
+    font-size: 1.3em;
+    color: #40916c;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+/* ============================================
+   IMÁGENES LATERALES INCLINADAS
+   ============================================ */
+.imagenes-laterales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+    margin: 50px 0;
+    padding: 0;
+}
+
+.imagen-inclinada {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: all 0.4s ease;
+    filter: brightness(0.95);
+}
+
+.imagen-inclinada:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    filter: brightness(1);
+}
+
+/* ============================================
+   SECCIÓN DE INFORMACIÓN
+   ============================================ */
+.info-section {
+    background: white;
+    padding: 45px 50px;
+    margin: 40px 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    border-left: 5px solid #52b788;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-section:hover {
+    transform: translateX(5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.info-section p {
+    font-size: 1.1em;
+    text-align: center;
+    color: #2c3e50;
+    margin: 12px 0;
+    line-height: 1.8;
+}
+
+.info-section p strong,
+.info-section p b {
+    color: #1b4332;
+    font-weight: 600;
+}
+
+/* ============================================
+   PIE DE PÁGINA
+   ============================================ */
+footer {
+    background: linear-gradient(90deg, #1b4332 0%, #2d6a4f 100%);
+    color: white;
+    padding: 40px 60px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+footer h3 {
+    color: #95d5b2;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 1em;
+    opacity: 0.95;
+}
+
+/* ============================================
+   LAYOUTS ALTERNADOS (IZQUIERDA-DERECHA)
+   ============================================ */
+.content-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+    margin: 50px 0;
+}
+
+.content-split-reverse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+    margin: 50px 0;
+    direction: rtl;
+}
+
+.content-split-reverse > * {
+    direction: ltr;
+}
+
+.content-box {
+    background: white;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-top: 4px solid #52b788;
+}
+
+.content-box h3 {
+    margin-top: 0;
+    color: #1b4332;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #52b788 0%, #40916c 100%);
+    color: white;
+    padding: 30px 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(82, 183, 136, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    color: white;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.stat-card p {
+    color: #d8f3dc;
+    font-size: 1.1em;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 30px;
+    }
+    
+    h1 {
+        font-size: 2.2em;
+        border-left-width: 4px;
+        padding-left: 15px;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+    }
+    
+    nav {
+        padding: 15px 20px;
+    }
+    
+    nav a {
+        display: block;
+        margin: 8px 0;
+        text-align: center;
+    }
+    
+    .galeria-principal {
+        flex-direction: column;
+        padding: 25px;
+    }
+    
+    .imagen-central {
+        width: 100%;
+    }
+    
+    .imagenes-laterales {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .imagen-inclinada {
+        height: 250px;
+    }
+    
+    .info-section {
+        padding: 30px 25px;
+    }
+    
+    .content-split,
+    .content-split-reverse {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    footer {
+        padding: 30px 25px;
+        text-align: center;
+    }
+}

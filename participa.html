@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Participa en el Cambio - CuidemosHuanchaquito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="sobre-proyecto.html">Sobre el Proyecto</a>
+        <a href="jornadas.html">Jornadas</a>
+        <a href="participa.html">Participa</a>
+    </nav>
+
+    <div class="container">
+        <h1>¡Únete al Cambio!</h1>
+        <div class="info-section">
+            <p>Tu participación hace la diferencia en nuestra comunidad.</p>
+        </div>
+
+        <h2>¿Cómo puedes participar?</h2>
+        <div class="info-section">
+            <p><b>Voluntariado Activo</b></p>
+            <p>
+                Participa en nuestras jornadas de limpieza, eventos de concientización 
+                y actividades comunitarias. ¡Tu tiempo y energía son fundamentales!
+            </p>
+            
+            <p><b>Embajador Digital</b></p>
+            <p>
+                Ayúdanos a difundir el mensaje en redes sociales, comparte nuestras 
+                publicaciones y motiva a otros a unirse al movimiento.
+            </p>
+            
+            <p><b>Propuestas e Ideas</b></p>
+            <p>
+                ¿Tienes ideas para mejorar el proyecto? Comparte tus propuestas y 
+                sugerencias. Estamos abiertos a nuevas iniciativas.
+            </p>
+        </div>
+
+        <h2>Inscríbete como Voluntario</h2>
+        <form class="contact-form" id="participationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edad">Edad</label>
+                            <input type="number" id="edad" name="edad" min="1" max="120">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="distrito">Distrito de Residencia</label>
+                        <input type="text" id="distrito" name="distrito" placeholder="Ej: Huanchaco, Trujillo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="participacion">¿Cómo deseas participar? *</label>
+                        <select id="participacion" name="participacion" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="voluntario">Voluntario en Jornadas</option>
+                            <option value="embajador">Embajador Digital</option>
+                            <option value="donante">Donante/Patrocinador</option>
+                            <option value="ideas">Propuestas e Ideas</option>
+                            <option value="todos">Todas las anteriores</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="disponibilidad">Disponibilidad</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="dias[]" value="sabado"> Sábados</label>
+                            <label><input type="checkbox" name="dias[]" value="domingo"> Domingos</label>
+                            <label><input type="checkbox" name="dias[]" value="semana"> Entre semana</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experiencia">¿Has participado antes en actividades similares?</label>
+                        <textarea id="experiencia" name="experiencia" rows="3" placeholder="Cuéntanos tu experiencia (opcional)"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje o Comentarios</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Algo más que quieras compartir?"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="terminos" required>
+                            Acepto recibir información sobre las actividades de CuidemosHuanchaquito
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Enviar Inscripción</button>
+                </form>
+            </div>
+
+            <h2>Preguntas Frecuentes</h2>
+            <div class="info-section">
+                <p><b>¿Necesito experiencia previa para ser voluntario?</b></p>
+                <p>
+                    No, no necesitas experiencia previa. Todas las personas mayores de 12 años 
+                    pueden participar. Los menores de edad deben estar acompañados de un adulto.
+                </p>
+                
+                <p><b>¿Qué debo llevar a las jornadas de limpieza?</b></p>
+                <p>
+                    Te recomendamos llevar: ropa cómoda, bloqueador solar, gorra, agua para 
+                    hidratarte y guantes de trabajo si tienes. Nosotros proporcionamos bolsas 
+                    y herramientas de limpieza.
+                </p>
+                
+                <p><b>¿Con qué frecuencia se realizan las jornadas?</b></p>
+                <p>
+                    Actualmente realizamos jornadas mensuales. También organizamos eventos 
+                    especiales en fechas importantes como el Día Mundial del Medio Ambiente.
+                </p>
+                
+                <p><b>¿Puedo participar si no vivo en Huanchaquito?</b></p>
+                <p>
+                    ¡Por supuesto! Todas las personas interesadas en el cuidado del medio 
+                    ambiente son bienvenidas, sin importar su lugar de residencia.
+                </p>
+            </div>
+
+                        <h2>Información de Contacto</h2>
+            <div class="info-section">
+                <div class="contact-card">
+                    <p>📧 <b>Correo Electrónico:</b></p>
+                    <p>info@cuidemoshuanchaquito.pe</p>
+                    <p>voluntarios@cuidemoshuanchaquito.pe</p>
+                </div>
+                <div class="contact-card">
+                    <p>📱 <b>Teléfono / WhatsApp:</b></p>
+                    <p>+51 999 999 999</p>
+                    <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                </div>
+                <div class="contact-card">
+                    <p>📍 <b>Ubicación:</b></p>
+                    <p> Huanchaquito, Huanchaco</p>
+                    <p>Trujillo - La Libertad, Perú</p>
+                </div>
+                <div class="contact-card">
+                    <p>🌐 <b>Redes Sociales:</b></p>
+                    <p>Facebook: /CuidemosHuanchaquito</p>
+                    <p>Instagram: @cuidemoshuanchaquito</p>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>¡Juntos somos más fuertes!</h3>
+                <p>
+                    Cada acción cuenta, cada voluntario hace la diferencia. 
+                    Únete hoy a CuidemosHuanchaquito y sé parte del cambio que nuestra comunidad necesita.
+                </p>
+            </div>
+        </div>
+
+        <!-- Pie de página -->
+        <footer>
+            <h3>CuidemosHuanchaquito</h3>
+            <p>Proyecto ICD - Medio Ambiente y Desarrollo Sostenible</p>
+            <p>Ing. José Calderón Sedano</p>
+            <p>&copy; 2025 CuidemosHuanchaquito. Todos los derechos reservados.</p>
+        </footer>
+
+        <script>
+            // Manejo simple del formulario
+            document.getElementById('participationForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('¡Gracias por tu inscripción! Pronto nos pondremos en contacto contigo.');
+                this.reset();
+            });
+        </script>
+    </body>
+    </html>
